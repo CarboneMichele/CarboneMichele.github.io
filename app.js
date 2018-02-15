@@ -107,7 +107,7 @@ function getWeather(lat,lon){
 
           // var theUrl="https://fcc-weather-api.glitch.me/api/current?"+"lat="+lat+"&lon="+lon;
           // var theUrl="http://api.openweathermap.org/data/2.5/forecast/daily?"+"lat="+lat+"&lon="+lon+"&cnt=7&appid=84a6ea6d73fe4881295e5ad1deb2bb66";
-          var theUrl="https://api.openweathermap.org/data/2.5/forecast?"+"lat="+lat+"&lon="+lon+"&units=metric&appid=84a6ea6d73fe4881295e5ad1deb2bb66";
+          var theUrl ="https://api.openweathermap.org/data/2.5/forecast?"+"lat="+lat+"&lon="+lon+"&units=metric&appid=84a6ea6d73fe4881295e5ad1deb2bb66";
           console.log(theUrl);
 
 
