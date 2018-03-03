@@ -141,6 +141,11 @@ html,body{
   -webkit-box-shadow: 0px 3px 8px 0px rgba(46,74,117,0.5);
   -moz-box-shadow: 0px 3px 8px 0px rgba(46,74,117,0.5);
   box-shadow: 0px 3px 8px 0px rgba(46,74,117,0.5);
+  background-image:url("img/position.svg");
+  background-position:90px;
+  background-repeat: no-repeat;
+  background-size: 20px;
+
 
 }
 
@@ -776,13 +781,21 @@ text-align:  right;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding:5px 10px;
+    padding:5px 20px;
     background-color: #0093c4;
-    border-radius: 4px;
+    border-radius: 3px;
     cursor: pointer;
     -webkit-box-shadow: 0px 3px 8px 0px rgba(46,74,117,0.5);
     -moz-box-shadow: 0px 3px 8px 0px rgba(46,74,117,0.5);
     box-shadow: 0px 3px 8px 0px rgba(46,74,117,0.5);
+    background-image:url("img/position.svg");
+    background-position:90px;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    font-size: 15px;
+    padding-right: 30px;
+
+
 
   }
 
@@ -797,6 +810,8 @@ text-align:  right;
   #findMe{
     font-size: 20px;
     cursor: pointer;
+
+
 
   }
 

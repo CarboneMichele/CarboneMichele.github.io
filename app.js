@@ -82,8 +82,9 @@ function initModal(){
 
 }//end of Init modal
 
-function getLocation(){
-
+function getLocation(event){
+  
+    event=event || window.event;
     if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(showPosition);
 
@@ -104,19 +105,6 @@ function getLocation(){
 
 //async request to FCC  weather API based on lat-lon given by the user
 function getWeather(lat,lon){
-
-
-
-
-
-
-
-
-
-
-
-
-
 
          var theUrl ="https://api.openweathermap.org/data/2.5/forecast?"+"lat="+lat+"&lon="+lon+"&units=metric&appid=84a6ea6d73fe4881295e5ad1deb2bb66";
 
