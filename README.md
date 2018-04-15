@@ -1,5 +1,5 @@
 # Weather web-app
-A simple, fully responsive weather web-app built for a a FreeCodeCamp's coding challenge 
+A simple, fully responsive weather web-app built for a a FreeCodeCamp's coding challenge   
 Link to the app: https://carbonemichele.github.io/weather_app/  
 Link to the FCC challenge:  https://www.freecodecamp.org/challenges/show-the-local-weather  
 
